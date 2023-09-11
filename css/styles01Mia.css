@@ -1,0 +1,131 @@
+body {
+  font-family: Arial, Verdana, sans-serif;
+  font-size: 16px; /* Tamaño de fuente base para pantallas grandes */
+  color: #666;
+  background-color: #e3e3e3;
+  margin: 0; /* Eliminar márgenes predeterminados */
+  padding: 0; /* Eliminar relleno predeterminado */
+}
+
+
+@media screen and (max-width: 768px) {
+  body {
+    font-size: 14px; /* Reducir el tamaño de fuente para pantallas pequeñas */
+  }
+}
+
+
+
+li {
+  list-style-image: url('../images/icon-plus.png');
+  line-height: 1.6em;
+}
+table {
+  border-spacing: 0px;
+  width: 70%;
+  height: 70%;
+}
+th,
+td {
+  padding: 5px 30px 5px 10px;
+  border-spacing: 0px;
+  font-size: 90%;
+  margin: 10%;
+}
+th,
+td {
+  color:#000000;
+  text-align: left;
+  background-color: #a3a3a3;
+  border-top: 1px solid #f1f8fe;
+  border-bottom: 1px solid #a3a3a3;
+  border-right: 1px solid #cbd2d8;
+}
+tr.head th {
+  color: #000000;
+  background-color: #6f6e6e;
+  border-bottom: 2px solid #7a7979;
+  border-right: 1px solid #b1b1b1;
+  border-top: 1px solid #bdbdbd;
+  text-align: center;
+  text-shadow: -1px -1px 1px #666666;
+  letter-spacing: 0.15em;
+}
+td {
+  text-shadow: 1px 1px 1px #ffffff;
+}
+tr.even td,
+tr.even th {
+  background-color: #8b8a8a;
+}
+tr.head th:first-child {
+  -webkit-border-top-left-radius: 5px;
+  -moz-border-radius-topleft: 5px;  
+  border-top-left-radius: 5px;
+}
+tr.head th:last-child {
+  -webkit-border-top-right-radius: 5px;
+  -moz-border-radius-topright: 5px;
+  border-top-right-radius: 5px;
+}
+fieldset {
+  color:#000000;
+  width: 35%;
+  height: 35%;
+  margin-top: 1%;
+  border: 1px solid #0a3ca8;
+  background-color: #0a3ca810;
+  line-height: 1.6em;
+}
+legend {
+  font-style: italic;
+  color: #666666;
+}
+input[type='text'] {
+  width: 30%;
+  border: 1px solid #d6d6d6;
+  padding: 2px;
+  outline: none;
+} 
+input[type='text']:focus,
+input[type='text']:hover {
+  background-color: #0a3ca8;
+  border: 1px solid #999999;
+}
+input[type='submit'] {
+  border: 1px solid #0a3ca8;
+  background-color: #3c60af;
+  color: #ffffff;
+  border-radius: 5px;
+  padding: 5px;
+  margin-top: 1%;
+  margin-left: 20%;
+}
+input[type='submit']:hover {
+  border: 1px solid #006633;
+  background-color: #00cc33;
+  color: #ffffff;
+  cursor: pointer;
+}
+.title {
+  float: left;
+  width: 160px;
+  clear: left;
+}
+.submit {
+  width: 310px;
+  text-align: right;
+}
+h1 
+{
+  text-align: center; 
+  color: #334292;
+  width:  640px;
+  height: 30px;
+  margin: 0px;
+}
+h2 
+{
+  text-align: left; 
+  color: #375cc2;
+}
